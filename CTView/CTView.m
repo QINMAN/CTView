@@ -7,7 +7,6 @@
 //
 
 #import "CTView.h"
-//#import "RentrRevealAccessoryInfoViewController.h"
 
 #define CELL_ID         @"CELL_ID"
 

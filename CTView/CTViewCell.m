@@ -7,7 +7,7 @@
 //
 
 #import "CTViewCell.h"
-//#import "UIImageView+WebCache.h"
+#import "UIImageView+WebCache.h"
 
 @interface CTViewCell ()
 @property (nonatomic, strong)UIImageView *imgView;
@@ -34,6 +34,6 @@
 
 - (void)setImgURL:(NSString *)imgURL {
     _imgURL = imgURL;
-//    [self.imgView sd_setImageWithURL:[NSURL URLWithString:imgURL] placeholderImage:[UIImage imageNamed:@"default.png"]];
+    [self.imgView sd_setImageWithURL:[NSURL URLWithString:imgURL] placeholderImage:[UIImage imageNamed:@"default.png"]];
 }
 @end
